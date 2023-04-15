@@ -1,0 +1,12 @@
+//VARIABLES PARA LOS COLORES
+$colorTexto: #5d9494;  
+$bgPrin: rgba(250, 235, 215, 0.678);
+$bgBackup: rgb(96, 118, 112);
+
+.colorTexto{
+    color: $colorTexto;
+} 
+
+.bg{
+    background-color: $bgPrin;
+}

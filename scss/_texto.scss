@@ -1,0 +1,23 @@
+p:not(.inicio){
+    text-align: justify;
+}
+.inicio{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: $colorTexto;
+}
+
+$vista:tablet;
+body{
+    @if $vista == desktop{
+        p{font-size:30px;}
+    }@else if $vista == mobile{
+        p{font-size: 20px;}
+    }@else{
+        p{font-size:25px;}
+    }
+}

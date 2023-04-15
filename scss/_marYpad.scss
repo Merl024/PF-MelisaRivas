@@ -1,0 +1,49 @@
+//MARGIN 
+@for $margin from  0 through 8 {
+    .m#{$margin}{
+        margin:5px * $margin;
+    }
+}
+
+@for $marginBottom from  0 through 5 {
+    .mb#{$marginBottom}{
+        margin-bottom:10px * $marginBottom;
+    }
+}
+
+@for $marginTop from 0 through 5 {
+    .mt#{$marginTop}{
+        margin-top: 10px * $marginTop;
+    }
+}
+
+@for $marginLeft from 0 through 8 {
+    .ml#{$marginLeft}{
+        margin-left: 5px * $marginLeft;
+    }
+}
+
+@for $marginRight from 0 through 8 {
+    .ml#{$marginRight}{
+        margin-right: 5px * $marginRight;
+    }
+}
+
+//PADDING
+@for $padding from  1 through 5 {
+    .p#{$padding}{
+        padding:10px * $padding;
+    }
+}
+
+@for $paddingBottom from 0 through 5 {
+    .pb#{$paddingBottom}{
+        padding-bottom: 10px * $paddingBottom;
+    }
+}
+
+@for $paddingTop from 0 through 5 {
+    .pt#{$paddingTop}{
+        padding-top: 10px * $paddingTop;
+    }
+}
