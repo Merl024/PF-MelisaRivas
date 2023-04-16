@@ -27,13 +27,16 @@
 }
 
 .imgFluid {
-  width: 75%;
+  width: 80%;
   height: auto;
 }
 
 .imgCard {
   max-width: 55%;
   height: auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .imgFoo {
@@ -41,7 +44,7 @@
   height: auto;
 }
 
-.imgCarrusel {
+.Centerimg {
   margin-right: 0;
   display: flex;
   justify-content: center;
@@ -321,6 +324,11 @@ h5 {
 h2, h3 {
   font-size: 30px;
   text-align: center;
+}
+
+.navs a {
+  font-size: 35px;
+  color: rgb(96, 118, 112);
 }
 
 @media screen and (min-width: 1024px) {

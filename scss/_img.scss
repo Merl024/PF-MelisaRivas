@@ -3,18 +3,21 @@
      height: auto;
 }
 .imgFluid{
-     width: 75%;
+     width: 80%;
      height: auto;
 }
 .imgCard{
      max-width: 55%;
      height: auto;
+     margin-right: 0;
+     display: flex;
+     justify-content: center;
 }
 .imgFoo{
      width: 25%;
      height: auto;
 }
-.imgCarrusel{
+.Centerimg{     
      margin-right: 0;
      display: flex;
      justify-content: center;

@@ -21,6 +21,10 @@ h2, h3{
     font-size: 30px;
     text-align: center;
 }
+.navs a{
+    font-size: 35px;
+    color: $TextBackup
+}
 @media screen and (min-width:1024px){
     p:not(.p-card, .textFoo, .p-foo){
         font-size: 30px;
