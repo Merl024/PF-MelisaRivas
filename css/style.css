@@ -25,6 +25,11 @@
   height: auto;
 }
 
+.imgCard {
+  max-width: 85%;
+  height: auto;
+}
+
 @font-face {
   font-family: "marxiana";
   src: url(../fonts/TT\ Marxiana\ Trial\ Antiqua.ttf);
