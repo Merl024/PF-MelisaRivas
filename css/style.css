@@ -326,21 +326,38 @@ h2, h3 {
   text-align: center;
 }
 
-.navs a {
-  font-size: 35px;
+.navs {
+  font-size: 25px;
   color: rgb(96, 118, 112);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: auto;
+}
+
+.p-nosotros {
+  text-align: justify;
+  font-size: 30px;
+  margin: 5%;
 }
 
 @media screen and (min-width: 1024px) {
-  p:not(.p-card, .textFoo, .p-foo) {
+  p:not(.p-card, .textFoo, .p-foo, .p-nosotros) {
     font-size: 30px;
     text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
-  p {
+  p, .p-nosotros {
     font-size: 20px;
     text-align: justify;
+  }
+  .navs {
+    font-size: 25px;
+    color: rgb(96, 118, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
 

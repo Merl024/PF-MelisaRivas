@@ -21,20 +21,36 @@ h2, h3{
     font-size: 30px;
     text-align: center;
 }
-.navs a{
-    font-size: 35px;
-    color: $TextBackup
+.navs{
+    font-size: 25px;
+    color: $TextBackup;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: auto;
+}
+.p-nosotros{
+    text-align: justify;
+    font-size: 30px;
+    margin: 5%;
 }
 @media screen and (min-width:1024px){
-    p:not(.p-card, .textFoo, .p-foo){
+    p:not(.p-card, .textFoo, .p-foo, .p-nosotros){
         font-size: 30px;
         text-align: center;
     }
 }
 
 @media screen and (max-width:768px){
-    p{
+    p, .p-nosotros{
         font-size: 20px;
         text-align: justify;
+    }
+    .navs{
+        font-size: 25px;
+        color: $TextBackup;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }
