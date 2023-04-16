@@ -32,7 +32,13 @@ h2, h3{
 .p-nosotros{
     text-align: justify;
     font-size: 30px;
-    margin: 5%;
+    margin: 3%;
+    margin-bottom: 4%;
+}
+.h3-nosotros{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
 }
 @media screen and (min-width:1024px){
     p:not(.p-card, .textFoo, .p-foo, .p-nosotros){
@@ -45,6 +51,9 @@ h2, h3{
     p, .p-nosotros{
         font-size: 20px;
         text-align: justify;
+    }
+    .p-nosotros{
+        margin: 6%
     }
     .navs{
         font-size: 25px;

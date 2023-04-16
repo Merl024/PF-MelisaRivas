@@ -1,0 +1,7 @@
+$hovernav:rgb(239, 213, 200);
+.navs a:hover{
+    background-color: $hovernav;
+    transition: all .4s;
+    border-radius: 15px;
+    font-size: 30px;
+}
