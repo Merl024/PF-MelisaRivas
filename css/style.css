@@ -27,7 +27,7 @@
 }
 
 .imgFluid {
-  width: 80%;
+  width: 75%;
   height: auto;
 }
 
@@ -39,6 +39,12 @@
 .imgFoo {
   width: 25%;
   height: auto;
+}
+
+.imgCarrusel {
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
 }
 
 @font-face {
@@ -298,7 +304,7 @@ a {
   color: rgb(93, 148, 148);
 }
 
-h2, h3, h5 {
+h5 {
   font-size: 35px;
   text-align: center;
 }
@@ -307,8 +313,18 @@ h2, h3, h5 {
   font-size: 23px;
 }
 
+.textFoo, .p-foo {
+  font-size: 25px;
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
 @media screen and (min-width: 1024px) {
-  p:not(.p-card) {
+  p:not(.p-card, .textFoo, .p-foo) {
     font-size: 30px;
     text-align: center;
   }
@@ -317,9 +333,6 @@ h2, h3, h5 {
   p {
     font-size: 20px;
     text-align: justify;
-  }
-  footer, p {
-    text-align: center;
   }
 }
 

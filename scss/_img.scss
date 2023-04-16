@@ -3,7 +3,7 @@
      height: auto;
 }
 .imgFluid{
-     width: 80%;
+     width: 75%;
      height: auto;
 }
 .imgCard{
@@ -13,4 +13,9 @@
 .imgFoo{
      width: 25%;
      height: auto;
+}
+.imgCarrusel{
+     margin-right: 0;
+     display: flex;
+     justify-content: center;
 }
