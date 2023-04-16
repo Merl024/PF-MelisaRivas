@@ -1,5 +1,14 @@
+.card {
+  background-color: rgba(96, 118, 112, 0.301);
+  color: rgb(135, 108, 98);
+}
+
+.p-card {
+  color: black;
+}
+
 .colorTexto {
-  color: #5d9494;
+  color: rgb(96, 118, 112);
 }
 
 .bg {
@@ -264,24 +273,34 @@
   padding-top: 50px;
 }
 
-p:not(.inicio) {
-  text-align: justify;
-}
-
-.inicio {
-  text-align: center;
-}
-
 h1 {
   text-align: center;
+  font-size: 50px;
 }
 
 a {
-  color: #5d9494;
+  color: rgb(93, 148, 148);
 }
 
-body p {
-  font-size: 25px;
+h5 {
+  font-size: 35px;
+}
+
+.p-card {
+  font-size: 23px;
+}
+
+@media screen and (min-width: 1024px) {
+  p:not(.p-card) {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,21 @@
 //VARIABLES PARA LOS COLORES
-$colorTexto: #5d9494;  
 $bgPrin: rgba(250, 235, 215, 0.678);
-$bgBackup: rgb(96, 118, 112);
+$bgSec: rgba(96, 118, 112, 0.301);
+$textCard: rgb(135, 108, 98);
+$colorTexto: rgb(93, 148, 148);  
+$TextBackup: rgb(96, 118, 112);
 
+//CREANDO CLASES PARA LOS COLORES
+.card{
+    background-color: $bgSec;
+    color: $textCard;
+}
+.p-card{
+    color: black;
+}
 .colorTexto{
-    color: $colorTexto;
+    color: $TextBackup;
 } 
-
 .bg{
     background-color: $bgPrin;
 }
