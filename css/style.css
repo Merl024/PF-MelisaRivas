@@ -307,6 +307,10 @@ h2, h3, h5 {
   font-size: 23px;
 }
 
+footer p, footer h2 {
+  font-size: 0.9375rem;
+}
+
 @media screen and (min-width: 1024px) {
   p:not(.p-card) {
     font-size: 30px;
