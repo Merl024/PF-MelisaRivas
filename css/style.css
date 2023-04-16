@@ -44,13 +44,6 @@
   height: auto;
 }
 
-.Centerimg {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex: auto;
-}
-
 @font-face {
   font-family: "marxiana";
   src: url(../fonts/TT\ Marxiana\ Trial\ Antiqua.ttf);
