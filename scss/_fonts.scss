@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "vogue";
-    src: url(../fonts/vogue.ttf);
-}
+//AGREGANDO FUENTES
 @font-face {
     font-family: 'marxiana';
     src: url(../fonts/TT\ Marxiana\ Trial\ Antiqua.ttf);
@@ -10,11 +7,16 @@
     font-family: 'flower';
     src: url(../fonts/MADE\ Sunflower\ PERSONAL\ USE.otf);
 }
+@font-face {
+    font-family: 'duke';
+    src: url(../fonts/Duke\ Charming\ DEMO.otf);
+}
 
+//CREANDO LAS CLASES DE LAS FUENTES
 $mapaFuentes:(
-    principal:'marxiana',
+    titulos:'duke',
     secundaria:'flower',
-    terciaria: 'vogue'
+    parrafos: 'marxiana'
 );
 
 @each $fuente, $familiaFuente in $mapaFuentes{
