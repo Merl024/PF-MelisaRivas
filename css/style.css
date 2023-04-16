@@ -54,15 +54,15 @@
   src: url(../fonts/Duke\ Charming\ DEMO.otf);
 }
 .f-titulos {
-  font-family: "duke";
+  font-family: "duke" !important;
 }
 
 .f-secundaria {
-  font-family: "flower";
+  font-family: "flower" !important;
 }
 
 .f-parrafos {
-  font-family: "marxiana";
+  font-family: "marxiana" !important;
 }
 
 .m0 {
@@ -305,10 +305,6 @@ h2, h3, h5 {
 
 .p-card {
   font-size: 23px;
-}
-
-footer p, footer h2 {
-  font-size: 0.9375rem;
 }
 
 @media screen and (min-width: 1024px) {

@@ -21,6 +21,6 @@ $mapaFuentes:(
 
 @each $fuente, $familiaFuente in $mapaFuentes{
     .f-#{$fuente}{
-        font-family: $familiaFuente;
+        font-family: $familiaFuente !important;
     }
 }
