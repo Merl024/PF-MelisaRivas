@@ -29,16 +29,27 @@
 .imgFluid {
   width: 80%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .imgCard {
   max-width: 55%;
   height: auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .imgFoo {
   width: 25%;
   height: auto;
+}
+
+.Centerimg {
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
 }
 
 @font-face {
@@ -305,6 +316,11 @@ h2, h3, h5 {
 
 .p-card {
   font-size: 23px;
+}
+
+.navs a {
+  font-size: 35px;
+  color: rgb(96, 118, 112);
 }
 
 @media screen and (min-width: 1024px) {

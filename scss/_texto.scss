@@ -13,7 +13,10 @@ h2, h3, h5{
 .p-card{
     font-size: 23px;
 }
-
+.navs a{
+    font-size: 35px;
+    color: $TextBackup
+}
 @media screen and (min-width:1024px){
     p:not(.p-card){
         font-size: 30px;
