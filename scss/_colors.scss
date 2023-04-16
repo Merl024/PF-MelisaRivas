@@ -7,6 +7,11 @@ $colorTexto: rgb(93, 148, 148);
 $TextBackup: rgb(96, 118, 112);
 
 //CREANDO CLASES PARA LOS COLORES
+.BTcatalog{
+    background-color: $bgTer;
+    border-color: $TextBackup;
+    color: black;
+}
 .card{
     background-color: $bgSec;
     color: $textCard;
