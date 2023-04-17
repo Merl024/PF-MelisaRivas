@@ -9,7 +9,7 @@
   color: rgb(135, 108, 98);
 }
 
-.p-card {
+.p-card, h6 {
   color: black;
 }
 
@@ -22,13 +22,14 @@
 }
 
 .imgLogo {
-  max-width: 55%;
+  max-width: 48%;
   height: auto;
 }
 
 .imgFluid {
   width: 80%;
   height: auto;
+  border-radius: 40px;
   display: flex;
   flex: auto;
   justify-content: center;
@@ -42,9 +43,13 @@
   justify-content: center;
 }
 
-.imgFoo {
-  width: 25%;
+.imgFoo, .logoFoo {
+  width: 30%;
   height: auto;
+}
+
+.logoFoo {
+  width: 45%;
 }
 
 @font-face {
@@ -295,12 +300,60 @@
   padding-top: 50px;
 }
 
+.pr0 {
+  padding-right: 0px;
+}
+
+.pr1 {
+  padding-right: 10px;
+}
+
+.pr2 {
+  padding-right: 20px;
+}
+
+.pr3 {
+  padding-right: 30px;
+}
+
+.pr4 {
+  padding-right: 40px;
+}
+
+.pr5 {
+  padding-right: 50px;
+}
+
+.pl0 {
+  padding-left: 0px;
+}
+
+.pl1 {
+  padding-left: 10px;
+}
+
+.pl2 {
+  padding-left: 20px;
+}
+
+.pl3 {
+  padding-left: 30px;
+}
+
+.pl4 {
+  padding-left: 40px;
+}
+
+.pl5 {
+  padding-left: 50px;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
 }
 
-a {
+ul {
   color: rgb(93, 148, 148);
 }
 
@@ -309,18 +362,26 @@ h5 {
   text-align: center;
 }
 
+h6 {
+  font-weight: 600;
+}
+
 .card-title {
   font-weight: bold;
 }
 
-.p-card {
+.p-card, h6 {
   font-size: 23px;
   text-align: center;
 }
 
-.textFoo, .p-foo {
+.p-foo, .textFoo {
   font-size: 25px;
   text-align: center;
+}
+
+.textFoo {
+  text-align: justify;
 }
 
 h2, h3 {
@@ -351,7 +412,7 @@ h2, h3 {
 }
 
 @media screen and (min-width: 1024px) {
-  p:not(.p-card, .textFoo, .p-foo, .p-nosotros) {
+  p:not(.p-card, h6, .p-foo, .textFoo, .p-nosotros) {
     font-size: 30px;
     text-align: center;
   }

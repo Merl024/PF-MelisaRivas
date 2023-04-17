@@ -47,3 +47,13 @@
         padding-top: 10px * $paddingTop;
     }
 }
+@for $paddingRight from 0 through 5 {
+    .pr#{$paddingRight}{
+        padding-right: 10px * $paddingRight;
+    }
+}
+@for $paddingLeft from 0 through 5 {
+    .pl#{$paddingLeft}{
+        padding-left: 10px * $paddingLeft;
+    }
+}
