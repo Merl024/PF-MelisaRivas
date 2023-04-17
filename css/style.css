@@ -36,10 +36,16 @@
 }
 
 .imgCard {
-  max-width: 55%;
+  width: 55%;
   height: auto;
-  margin-right: 0;
+  margin: auto;
+}
+
+.carrusel {
   display: flex;
+  margin: auto;
+  width: 75%;
+  height: auto;
   justify-content: center;
 }
 
@@ -250,6 +256,10 @@
 
 .p5 {
   padding: 50px;
+}
+
+.p6 {
+  padding: 60px;
 }
 
 .pb0 {

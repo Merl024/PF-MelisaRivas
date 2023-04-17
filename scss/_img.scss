@@ -11,10 +11,15 @@
      justify-content:center;
 }
 .imgCard{
-     max-width: 55%;
+     width: 55%;
      height: auto;
-     margin-right: 0;
+     margin: auto;
+}
+.carrusel{
      display: flex;
+     margin: auto;
+     width: 75%;
+     height: auto;
      justify-content: center;
 }
 .imgFoo{
@@ -25,9 +30,3 @@
      @extend .imgFoo;
      width:45% ;
 }
-//.Centerimg{     
-//    display: flex;
-//    flex-direction: row;
-//    justify-content: center;
-//    flex: auto;
-//}
