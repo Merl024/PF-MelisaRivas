@@ -5,6 +5,9 @@
 .imgFluid{
      width: 80%;
      height: auto;
+     display: flex;
+     flex: auto;
+     justify-content:center;
 }
 .imgCard{
      max-width: 55%;
