@@ -7,13 +7,11 @@
      height: auto;
      border-radius: 40px;
      display: flex;
-     flex: auto;
-     justify-content:center;
+     justify-content: center;
 }
-.imgCard{
-     width: 55%;
-     height: auto;
-     margin: auto;
+.flex{
+     display: flex;
+     justify-content: center;
 }
 .carrusel{
      display: flex;
@@ -30,3 +28,14 @@
      @extend .imgFoo;
      width:45% ;
 }
+
+//@media screen and (max-width:768px){
+     .logoFoo{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+     .carrusel{
+          width: 85%;
+     }
+//}

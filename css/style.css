@@ -31,14 +31,12 @@
   height: auto;
   border-radius: 40px;
   display: flex;
-  flex: auto;
   justify-content: center;
 }
 
-.imgCard {
-  width: 55%;
-  height: auto;
-  margin: auto;
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 .carrusel {
@@ -56,6 +54,16 @@
 
 .logoFoo {
   width: 45%;
+}
+
+.logoFoo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carrusel {
+  width: 85%;
 }
 
 @font-face {
@@ -452,6 +460,17 @@ h2, h3 {
   transition: all 0.4s;
   border-radius: 15px;
   font-size: 30px;
+}
+
+.imgCard {
+  width: 55%;
+  height: auto;
+  margin: auto;
+}
+
+.cardCreaciones {
+  background-color: rgba(96, 118, 112, 0.301);
+  border-radius: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
