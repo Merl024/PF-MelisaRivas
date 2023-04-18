@@ -4,6 +4,59 @@
     margin: auto;
 }
 .cardCreaciones{
-    background-color: $bgSec;
+    @extend .cardIni;
     border-radius: 45px;
+    color: $bgSec;
+}
+.cardIni{
+    background-color: $bgSec;
+    color: $textCard;
+}
+.cardscrea{
+    background-color: $bgTer;
+    border-radius: 40px;
+    border-style: none;
+}
+@media screen and (min-width:1024px){
+    .creaciones{
+        margin: auto;
+        padding-right: 0;
+        padding: 24%;
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+    .cardCrea{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .h6Crea{
+        padding-top: 10px;
+    }
+    .ulCrea{
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width:768px) {
+    .imgCard{
+        width: 100%;
+    }
+    .creaciones{
+        margin: auto;
+        padding-right: 0;
+        padding: 15px;
+    }
+    .h6Crea, .ulCrea{
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+    }
+    .cardCrea{
+        padding-bottom: 25px;
+    }
+    .h6Crea{
+        padding-top: 38px;
+    }
+    .ulCrea{
+        padding: 5px;
+    }
 }

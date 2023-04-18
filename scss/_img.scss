@@ -13,13 +13,6 @@
      display: flex;
      justify-content: center;
 }
-.carrusel{
-     display: flex;
-     margin: auto;
-     width: 75%;
-     height: auto;
-     justify-content: center;
-}
 .imgFoo{
      width: 30%;
      height: auto;
@@ -27,15 +20,16 @@
 .logoFoo{
      @extend .imgFoo;
      width:45% ;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 }
 
-//@media screen and (max-width:768px){
+@media screen and (max-width:768px){
      .logoFoo{
           display: flex;
           flex-direction: column;
           justify-content: center;
      }
-     .carrusel{
-          width: 85%;
-     }
-//}
+}

@@ -6,6 +6,21 @@ h1{
 ul{
     color: $colorTexto;
 }
+.ulCrea{
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+.h6Crea{
+    color: $textCard;
+    font-size: 35px;
+
+}
+.h3Crea{
+    @extend .h6Crea;
+    color: $TextBackup
+}
 h5{
     font-size: 35px;
     text-align: center;
@@ -13,6 +28,10 @@ h5{
 h6{
     @extend .p-card;
     font-weight:600;
+}
+.h6card{
+    @extend .p-card;
+    font-weight:0;
 }
 .card-title{
     font-weight: bold;

@@ -4,12 +4,7 @@
   color: black;
 }
 
-.card {
-  background-color: rgba(96, 118, 112, 0.301);
-  color: rgb(135, 108, 98);
-}
-
-.p-card, h6 {
+.p-card, .h6card, h6 {
   color: black;
 }
 
@@ -39,14 +34,6 @@
   justify-content: center;
 }
 
-.carrusel {
-  display: flex;
-  margin: auto;
-  width: 75%;
-  height: auto;
-  justify-content: center;
-}
-
 .imgFoo, .logoFoo {
   width: 30%;
   height: auto;
@@ -54,18 +41,19 @@
 
 .logoFoo {
   width: 45%;
-}
-
-.logoFoo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.carrusel {
-  width: 85%;
+@media screen and (max-width: 768px) {
+  .logoFoo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
-
 @font-face {
   font-family: "marxiana";
   src: url(../fonts/TT\ Marxiana\ Trial\ Antiqua.ttf);
@@ -375,6 +363,22 @@ ul {
   color: rgb(93, 148, 148);
 }
 
+.ulCrea {
+  color: black;
+  text-align: center;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.h6Crea, .h3Crea {
+  color: rgb(135, 108, 98);
+  font-size: 35px;
+}
+
+.h3Crea {
+  color: rgb(96, 118, 112);
+}
+
 h5 {
   font-size: 35px;
   text-align: center;
@@ -384,11 +388,15 @@ h6 {
   font-weight: 600;
 }
 
+.h6card {
+  font-weight: 0;
+}
+
 .card-title {
   font-weight: bold;
 }
 
-.p-card, h6 {
+.p-card, h6, .h6card {
   font-size: 23px;
   text-align: center;
 }
@@ -430,7 +438,7 @@ h2, h3 {
 }
 
 @media screen and (min-width: 1024px) {
-  p:not(.p-card, h6, .p-foo, .textFoo, .p-nosotros) {
+  p:not(.p-card, h6, .h6card, .p-foo, .textFoo, .p-nosotros) {
     font-size: 30px;
     text-align: center;
   }
@@ -469,8 +477,63 @@ h2, h3 {
 }
 
 .cardCreaciones {
-  background-color: rgba(96, 118, 112, 0.301);
   border-radius: 45px;
+  color: rgba(96, 118, 112, 0.301);
+}
+
+.cardIni, .cardCreaciones {
+  background-color: rgba(96, 118, 112, 0.301);
+  color: rgb(135, 108, 98);
+}
+
+.cardscrea {
+  background-color: antiquewhite;
+  border-radius: 40px;
+  border-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .creaciones {
+    margin: auto;
+    padding-right: 0;
+    padding: 24%;
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+  .cardCrea {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .h6Crea, .h3Crea {
+    padding-top: 10px;
+  }
+  .ulCrea {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .imgCard {
+    width: 100%;
+  }
+  .creaciones {
+    margin: auto;
+    padding-right: 0;
+    padding: 15px;
+  }
+  .h6Crea, .h3Crea, .ulCrea {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+  }
+  .cardCrea {
+    padding-bottom: 25px;
+  }
+  .h6Crea, .h3Crea {
+    padding-top: 38px;
+  }
+  .ulCrea {
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
