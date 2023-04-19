@@ -1,8 +1,3 @@
-.imgCard{
-    width: 55%;
-    height: auto;
-    margin: auto;
-}
 .cardCreaciones{
     @extend .cardIni;
     border-radius: 45px;
@@ -15,7 +10,11 @@
 .cardscrea{
     background-color: $bgTer;
 }
-
+.cardConta{
+    background-color: $bgTer;
+    border-radius: 40px;
+    padding: 20px;
+}
 @media screen and (min-width:1024px){
     .creaciones{
         margin: auto;
@@ -33,6 +32,11 @@
     }
     .ulCrea{
         padding-bottom: 25px;
+    }
+    .imgCard{
+        width: 36%;
+        height: auto;
+        margin: auto;
     }
 }
 @media screen and (max-width:768px) {

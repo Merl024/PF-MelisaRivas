@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    .navs li{
+        border-top: solid;
+        border-color: rgb(239, 213, 200);
+    }
+}
+@media screen and (min-width: 1024px){
+    .navs li{
+        border-right: solid;
+        border-color: rgb(239, 213, 200);
+        padding-right: 45px;
+    }
+}
+.navs{
+    font-size: 25px;
+    color: $TextBackup;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: auto;
+}

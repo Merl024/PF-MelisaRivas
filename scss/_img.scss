@@ -13,9 +13,23 @@
      display: flex;
      justify-content: center;
 }
+.imgConta{
+     height: auto;
+     max-width: 10%;
+     padding: 15px;
+}
+.flexConta{
+     @extend .flex;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+}
 .imgFoo{
      width: 30%;
      height: auto;
+}
+.flexLogo{
+     @extend .flex;
 }
 .logoFoo{
      @extend .imgFoo;

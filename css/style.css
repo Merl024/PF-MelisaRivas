@@ -29,9 +29,21 @@
   justify-content: center;
 }
 
-.flex {
+.flex, .conta, .flexLogo, .flexConta {
   display: flex;
   justify-content: center;
+}
+
+.imgConta {
+  height: auto;
+  max-width: 10%;
+  padding: 15px;
+}
+
+.flexConta {
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .imgFoo, .logoFoo {
@@ -354,6 +366,11 @@
   padding-left: 50px;
 }
 
+.divConta {
+  padding: 60px;
+  padding-top: 0;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -415,15 +432,6 @@ h2, h3 {
   text-align: center;
 }
 
-.navs {
-  font-size: 25px;
-  color: rgb(96, 118, 112);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex: auto;
-}
-
 .p-nosotros {
   text-align: justify;
   font-size: 30px;
@@ -443,6 +451,24 @@ h2, h3 {
     text-align: center;
   }
 }
+.h5conta {
+  color: rgb(96, 118, 112);
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.h4conta {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-top: solid;
+}
+
+.flexConta a:visited {
+  color: rgb(93, 148, 148);
+}
+
 @media screen and (max-width: 768px) {
   p, .p-nosotros {
     font-size: 20px;
@@ -458,9 +484,29 @@ h2, h3 {
     flex-direction: column;
     justify-content: flex-end;
   }
-  h5:not(.card-title) {
+  h5:not(.card-title, .h5conta) {
     font-size: 25px;
     text-align: center;
+  }
+  .navs li {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+  }
+  .h5conta {
+    font-size: 30px;
+  }
+  .imgConta {
+    height: auto;
+    max-width: 25%;
+    padding: 20px;
+    padding-right: 15px;
+  }
+  .cardConta {
+    padding: 10px;
+  }
+  .divConta {
+    padding: 20px;
   }
 }
 .navs a:hover {
@@ -468,12 +514,6 @@ h2, h3 {
   transition: all 0.4s;
   border-radius: 15px;
   font-size: 30px;
-}
-
-.imgCard {
-  width: 55%;
-  height: auto;
-  margin: auto;
 }
 
 .cardCreaciones {
@@ -488,6 +528,12 @@ h2, h3 {
 
 .cardscrea {
   background-color: antiquewhite;
+}
+
+.cardConta {
+  background-color: antiquewhite;
+  border-radius: 40px;
+  padding: 20px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -507,6 +553,11 @@ h2, h3 {
   }
   .ulCrea {
     padding-bottom: 25px;
+  }
+  .imgCard {
+    width: 36%;
+    height: auto;
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -532,6 +583,39 @@ h2, h3 {
   .ulCrea {
     padding: 5px;
   }
+}
+.conta {
+  border-radius: 50px;
+  padding: 30px;
+  width: 60%;
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .conta {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navs li {
+    border-top: solid;
+    border-color: rgb(239, 213, 200);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navs li {
+    border-right: solid;
+    border-color: rgb(239, 213, 200);
+    padding-right: 45px;
+  }
+}
+.navs {
+  font-size: 25px;
+  color: rgb(96, 118, 112);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

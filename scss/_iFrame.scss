@@ -1,0 +1,14 @@
+//Ubicacion
+.conta{
+    @extend .flex;
+    border-radius: 50px;
+    padding: 30px;
+    width: 60%;
+    height: 500px
+}
+
+@media screen and (max-width:768px) {
+    .conta{
+        width: 100%;
+    }
+}
