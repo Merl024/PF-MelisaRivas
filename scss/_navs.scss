@@ -5,10 +5,10 @@
     }
 }
 @media screen and (min-width: 1024px){
-    .navs li{
+    .navs li:not(.lastitem){
         border-right: solid;
         border-color: rgb(239, 213, 200);
-        padding-right: 45px;
+        padding-right:5%;
     }
     .navs{
         font-size: 25px;

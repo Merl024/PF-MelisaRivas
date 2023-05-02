@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.flex, .conta, .flexLogo, .flexConta {
+.flex, .conta, .flexLogo, .flexConta, .imgrrss {
   display: flex;
   justify-content: center;
 }
@@ -603,10 +603,10 @@ h2, h3 {
   }
 }
 @media screen and (min-width: 1024px) {
-  .navs li {
+  .navs li:not(.lastitem) {
     border-right: solid;
     border-color: rgb(239, 213, 200);
-    padding-right: 45px;
+    padding-right: 5%;
   }
   .navs {
     font-size: 25px;
@@ -617,6 +617,53 @@ h2, h3 {
     flex: auto;
     padding-left: 5px;
     margin-left: 10px;
+  }
+}
+.foo {
+  margin: -12px;
+}
+
+@media (min-width: 1024px) {
+  .foogrids {
+    display: grid;
+    grid-template-areas: "headrrss " "imgrrss";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  .headrrss {
+    grid-area: headrrss;
+  }
+  .imgrrss {
+    grid-area: imgrrss;
+  }
+  .flexaround {
+    display: flex;
+    justify-content: space-around;
+  }
+  .gridfoo {
+    display: grid;
+    grid-template-areas: "Foologo redes contacto llama";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto auto;
+  }
+  .Foologo {
+    grid-area: Foologo;
+  }
+  .redes {
+    grid-area: redes;
+  }
+  .contacto {
+    grid-area: contacto;
+  }
+  .llama {
+    grid-area: llama;
+  }
+}
+@media (min-width: 768px) {
+  .foo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

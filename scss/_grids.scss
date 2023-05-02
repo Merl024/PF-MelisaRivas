@@ -1,0 +1,38 @@
+.foo{
+    margin: -12px;
+}
+@media (min-width:1024px){
+  .foogrids{
+        display: grid;
+        grid-template-areas: 
+        "headrrss "
+        "imgrrss";
+        grid-template-columns: 100%; 
+        grid-template-rows: auto ;
+    }
+    .headrrss{ grid-area: headrrss;}
+    .imgrrss{grid-area: imgrrss;}
+    .flexaround{
+        display: flex;
+        justify-content: space-around;
+    }
+    .gridfoo{
+        display: grid;
+        grid-template-areas: 
+        "Foologo redes contacto llama";
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Foologo{grid-area: Foologo;}
+    .redes{grid-area: redes;}
+    .contacto{grid-area: contacto;}
+    .llama{grid-area: llama;}
+}
+
+@media (min-width:768px){
+    .foo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
